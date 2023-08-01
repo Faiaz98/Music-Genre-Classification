@@ -1,0 +1,50 @@
+/* styles/styles.css */
+
+
+/* Custom styles for the container */
+
+.container {
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Custom styles for the file upload input */
+
+.input {
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #4299e1;
+}
+
+
+/* Custom styles for the predicted genre text */
+
+.predicted-genre {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+
+/* Styles for the container when hovering over the file input */
+
+.input-container:hover .input {
+    border-color: #a0aec0;
+}
+
+
+/* Styles for the container when the file input is focused */
+
+.input-container:focus-within {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
